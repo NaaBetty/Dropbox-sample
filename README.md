@@ -32,3 +32,7 @@ Chrome View
 
 Safari View
 <img width="1440" alt="Screenshot 2023-09-11 at 7 18 02 AM" src="https://github.com/NaaBetty/Dropbox-sample/assets/46527092/c45d49a2-aadb-44cd-b92a-57dca0d5e35d">
+
+
+Original Page
+![image](https://github.com/NaaBetty/Dropbox-sample/assets/46527092/c37a30b9-f368-47f3-8f60-af065f310e59)
