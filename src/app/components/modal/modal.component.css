@@ -1,0 +1,40 @@
+/* Style for the modal dialog */
+.modal-dialog {
+    max-width: 600px; /* Adjust the maximum width as needed */
+  }
+  
+  /* Style for the language links */
+  .modal-body ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove default list padding */
+  }
+  
+  .modal-body ul li a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #007BFF; /* Link color (you can change it) */
+    font-family: "Google Sans", Arial, sans-serif; /* Apply the specified font */
+    font-size: 24px;
+    font-weight: lighter;
+  }
+  
+  .modal-body ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Style for the close button */
+  .modal-header .btn-close {
+    color: #000; /* Close button color */
+    font-size: 24px;
+  }
+  
+  /* Style for the "Close" and "Understood" buttons in the footer */
+  .modal-footer .btn {
+    margin-right: 10px; /* Add some spacing between buttons */
+  }
+  .modal-title{
+    text-align: left;
+    font-family: "Google Sans", Arial, sans-serif;
+    margin-right: 40px;
+
+  }
+  

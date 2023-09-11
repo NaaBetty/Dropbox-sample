@@ -1,0 +1,143 @@
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  .card-container > *:not(.circle-link) ,
+  .terminal {
+    width: 100%;
+  }
+
+  .card:not(.highlight-card) {
+    height: 16px;
+    margin: 8px 0;
+  }
+
+  .card.highlight-card span {
+    margin-left: 72px;
+  }
+
+  svg#rocket-smoke {
+    right: 120px;
+    transform: rotate(-5deg);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  svg#rocket-smoke {
+    display: none;
+    visibility: hidden;
+  }
+}
+/* new css */
+.bi-bi-apple{
+  margin-right: 5px;
+  
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+font-family: "Google Sans",arial,sans-serif;
+color: #1A1918;
+text-align: left;
+}
+.bg-1{
+  background: #EEE9E2;
+  width: 49%;
+  position: relative;
+  margin-left: -5px;
+  
+  
+  
+}
+button {
+  width: 100%;
+  padding: 12px 25px;
+  margin: 10px 0;
+  border-radius: 2px;
+  background-color: white;
+  border: 1px solid #dadce0;
+  color: #3c4043;
+  cursor: pointer;
+  font-family: "Google Sans",arial,sans-serif;
+  font-size: 14px;
+  height: 45px;
+  letter-spacing: 0.25px;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid #dadce0;
+  color: #3c4043;
+  font-family: "Google Sans",arial,sans-serif;
+  font-size: 14px;
+  height: 40px;
+}
+form {
+  font-size: 14px;
+  color: #1a1a1a;
+}
+input[type="submit"] {
+  background-color: #0160FE;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center;
+  height: 60px;
+  font-family: "Google Sans",arial,sans-serif;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.card{
+  margin-top: 20px;
+  height: 100%;
+
+}
+.roy{
+  font-family: "Google Sans",arial,sans-serif;
+  font-weight: bold;
+}
+.divBreak {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap; 
+  font-family: "Google Sans",arial,sans-serif;
+  font-size: 19px;
+}
+
+.divBreak > span {
+  position: relative;
+  display: inline-block;
+}
+
+.divBreak > span:before,
+.divBreak > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+  background: #7d7d7d;
+}
+
+.divBreak > span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.divBreak > span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
